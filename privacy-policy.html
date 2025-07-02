@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="light dark">
     <title>プライバシーポリシー - ガレージ.</title>
     <style>
         body { 
@@ -55,6 +56,28 @@
             font-weight: bold;
             color: #333333;
         }
+
+        /* ⭐️ ダークモード対応ここから */
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-color: #111;
+                color: #eee;
+            }
+            .container {
+                background-color: #1c1c1e;
+            }
+            h1, h2 {
+                color: #fff;
+            }
+            a {
+                color: #71aaff;
+            }
+            .contact-info {
+                color: #ccc;
+            }
+        }
+        /* ⭐️ ダークモード対応ここまで */
+
     </style>
 </head>
 <body>
