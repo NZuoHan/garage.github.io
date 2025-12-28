@@ -64,6 +64,10 @@ h2 {
     margin-bottom: 1em;
 }
 
+body {
+    font-size: 17px;
+}
+
 p,
 li {
     margin-bottom: 1em;
