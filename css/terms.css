@@ -1,7 +1,3 @@
-/* =========================================
-   Supports: JA / EN / zh-Hans / zh-Hant
-   ========================================= */
-
 html {
     -webkit-text-size-adjust: 100%;
 }
@@ -10,33 +6,27 @@ body {
     font-family:
         -apple-system,
         BlinkMacSystemFont,
-
-        /* Japanese */
         "Hiragino Sans",
         "Hiragino Kaku Gothic ProN",
-
-        /* Chinese (Traditional / Simplified) */
         "PingFang TC",
         "PingFang SC",
         "Noto Sans CJK TC",
         "Noto Sans CJK SC",
         "Microsoft JhengHei",
         "Microsoft YaHei",
-
-        /* Fallback */
         "Segoe UI",
         Roboto,
         "Helvetica Neue",
         Arial,
         sans-serif;
 
+    font-size: 17px;
     line-height: 1.7;
     margin: 0;
     padding: 0;
     background-color: #ffffff;
     color: #333333;
 
-    text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -46,40 +36,27 @@ body {
     padding: 20px;
 }
 
-h1,
-h2 {
-    color: #000000;
-    margin-bottom: 0.5em;
-    font-weight: 600;
-}
-
 h1 {
     font-size: 1.5em;
+    font-weight: 600;
 }
 
 h2 {
     font-size: 1.2em;
-    border-bottom: 1px solid #cccccc;
+    font-weight: 600;
+    border-bottom: 1px solid #ccc;
     padding-bottom: 0.3em;
     margin-bottom: 1em;
 }
 
-body {
-    font-size: 17px;
-}
-
 p,
 li {
+    line-height: 1.75;
     margin-bottom: 1em;
 }
 
 ul {
     padding-left: 20px;
-    margin-bottom: 1em;
-}
-
-li {
-    margin-bottom: 0.5em;
 }
 
 a {
@@ -91,11 +68,10 @@ a:hover {
     text-decoration: underline;
 }
 
-/* 🌙 Dark Mode */
 @media (prefers-color-scheme: dark) {
     body {
-        background-color: #111111;
-        color: #eeeeee;
+        background-color: #111;
+        color: #eee;
     }
 
     .container {
@@ -104,7 +80,7 @@ a:hover {
 
     h1,
     h2 {
-        color: #ffffff;
+        color: #fff;
     }
 
     a {
